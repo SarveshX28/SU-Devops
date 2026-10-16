@@ -1,0 +1,26 @@
+# Terraform state and local variables
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials and private keys
+.aws/
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+ansible/inventory.ini
+
+# Python/cache/editor artifacts
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
