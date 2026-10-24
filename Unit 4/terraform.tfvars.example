@@ -1,0 +1,5 @@
+aws_region       = "ap-south-1"
+project_name     = "sarvesh-unit4-devops"
+ssh_allowed_cidr = "203.0.113.10/32" # REPLACE with your current public IP/32
+key_pair_name    = "REPLACE_WITH_EXISTING_EC2_KEY_PAIR_NAME"
+instance_type    = "t3.micro"
